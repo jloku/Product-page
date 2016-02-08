@@ -22,17 +22,16 @@ function Main(){
 	var state = -1;
 	$('body').on('click', '.product_wrap', function(){
 		  if ( state == -1 ) {
-			  $(this).find(".rates").css("visibility","visible");
-			  $(this).find(".price").css("visibility","visible");
+			  $(this).find(".rates").css("display","inline-block");
+			  $(this).find(".price").css("display","block");
 				$(this).animate({
 					  width: "49%",
-					  height:"220px",
 				}, 200 );
 				$(this).find('.rates').delay(200).animate({
 					  opacity: 1
 				}, 200 );				
 				$(this).find('.logo').animate({
-					  height:"40%"
+					  width:"40%"
 				}, 200 );
 				$(this).find('.price').delay(200).animate({
 					  opacity: 1
@@ -40,33 +39,30 @@ function Main(){
 				state = $('.product_wrap').index(this);
 		  } else {
 				if (!($('.product_wrap').index(this) ==state)){
-					$($('.product_wrap').get(state)).find(".rates").css("visibility","hidden");
-					$($('.product_wrap').get(state)).css("visibility","hidden");
+					$($('.product_wrap').get(state)).find(".rates").css("display","none");
+					$($('.product_wrap').get(state)).find(".price").css("display","none");
 					$($('.product_wrap').get(state)).delay(200).animate({
 						  width: "24%",
-						  height:"100px",
-						  background:"#ccf2db"
 					}, 200 );
 					$($('.product_wrap').get(state)).find('.rates').animate({
 					  opacity: 0
 					}, 200 );
 					$($('.product_wrap').get(state)).find('.logo').animate({
-					  height:"80%"
+					  width:"95%"
 					}, 200 );
 					$($('.product_wrap').get(state)).find('.price').animate({
 					  opacity: 0
 					}, 200 );
-					$(this).find(".rates").css("visibility","visible");
-					$(this).find(".price").css("visibility","visible");
+					$(this).find(".rates").css("display","inline-block");
+					$(this).find(".price").css("display","block");
 					$(this).animate({
 						  width: "49%",
-						  height:"220px"
 					}, 200 );
 					$(this).find('.rates').delay(200).animate({
 					  opacity: 1
 					}, 200 );
 					$(this).find('.logo').animate({
-					  height:"40%"
+					  width:"40%"
 					}, 200 );
 					$(this).find('.price').delay(200).animate({
 					  opacity: 1
