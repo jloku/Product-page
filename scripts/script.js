@@ -28,6 +28,9 @@ function Main(){
 				}, 200 );
 				$(this).find('.rates').delay(200).animate({
 					  opacity: 1
+				}, 200 );				
+				$(this).find('.logo').animate({
+					  height:"40%"
 				}, 200 );
 				$(this).find('.price').delay(200).animate({
 					  opacity: 1
@@ -43,6 +46,9 @@ function Main(){
 					$($('.product_wrap').get(state)).find('.rates').animate({
 					  opacity: 0
 					}, 200 );
+					$($('.product_wrap').get(state)).find('.logo').animate({
+					  height:"40%"
+					}, 200 );
 					$($('.product_wrap').get(state)).find('.price').animate({
 					  opacity: 0
 					}, 200 );
@@ -52,6 +58,9 @@ function Main(){
 					}, 200 );
 					$(this).find('.rates').delay(200).animate({
 					  opacity: 1
+					}, 200 );
+					$(this).find('.logo').animate({
+					  height:"40%"
 					}, 200 );
 					$(this).find('.price').delay(200).animate({
 					  opacity: 1

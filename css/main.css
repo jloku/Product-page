@@ -4,7 +4,7 @@
 	width:100%;
 }
 .Products {
-	width:80%;
+	width:90%;
 	margin:auto;
 	text-align:center;
 }
@@ -33,7 +33,7 @@
 }
 .logo{
 	border-radius: 15px;
-	height:70px
+	height:80%
 }
 .rates{
 	opacity:0;
