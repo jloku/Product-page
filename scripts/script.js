@@ -47,7 +47,7 @@ function Main(){
 					  opacity: 0
 					}, 200 );
 					$($('.product_wrap').get(state)).find('.logo').animate({
-					  height:"40%"
+					  height:"80%"
 					}, 200 );
 					$($('.product_wrap').get(state)).find('.price').animate({
 					  opacity: 0
