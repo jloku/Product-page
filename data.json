@@ -1,0 +1,36 @@
+{
+    "Products":{
+	
+			"Assist45": {
+				"image": "images/Assist-451-292x84.jpg",
+				"rates":{
+					"450":"50",
+					"420":"30"
+				}
+			},	
+
+			"BioFlex": {
+				"image": "images/BioFlex-292x84.jpg",
+				"rates":{
+					"450":"50",
+					"420":"30"
+				}
+			},	
+		
+			"BioGold": {
+				"image": "images/BioGold-292x84.jpg",
+				"rates":{
+					"450":"50",
+					"420":"30"
+				}
+			},
+			
+			"BioMate": {
+				"image": "images/BioMate-292x84.jpg",
+				"rates":{
+					"450":"50",
+					"420":"30"
+				}
+			}
+	}
+}

@@ -1,0 +1,46 @@
+@import url("reset.css");
+
+.wrap {
+	width:100%
+}
+.Products {
+	width:80%;
+	margin:auto;
+	text-align:center;
+}
+.product_wrap {
+	
+	height:100px;
+	width:24%;
+	margin: 5px auto;
+	display: flex;
+	float:left;
+	padding:5px;
+}
+.product {
+	border-radius: 25px;
+	width:100%;
+	height:100%;
+	border: 2px #e5e5e5 solid;
+	margin:5px auto;
+	padding:5px;
+	text-align:left;
+}
+.logo{
+	border-radius: 15px;
+	height:70px
+}
+.rates{
+	opacity:0;
+	width: 30%;
+	text-align:center;
+	font-size: 18pt;
+	margin-left:10%;
+	vertical-align: top;
+	margin-top:5%;
+}
+h1 {
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
