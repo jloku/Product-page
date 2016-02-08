@@ -22,6 +22,8 @@ function Main(){
 	var state = -1;
 	$('body').on('click', '.product_wrap', function(){
 		  if ( state == -1 ) {
+			  $(this).find(".rates").css("visibility","visible");
+			  $(this).find(".price").css("visibility","visible");
 				$(this).animate({
 					  width: "49%",
 					  height:"220px",
@@ -38,6 +40,8 @@ function Main(){
 				state = $('.product_wrap').index(this);
 		  } else {
 				if (!($('.product_wrap').index(this) ==state)){
+					$($('.product_wrap').get(state)).find(".rates").css("visibility","hidden");
+					$($('.product_wrap').get(state)).css("visibility","hidden");
 					$($('.product_wrap').get(state)).delay(200).animate({
 						  width: "24%",
 						  height:"100px",
@@ -52,6 +56,8 @@ function Main(){
 					$($('.product_wrap').get(state)).find('.price').animate({
 					  opacity: 0
 					}, 200 );
+					$(this).find(".rates").css("visibility","visible");
+					$(this).find(".price").css("visibility","visible");
 					$(this).animate({
 						  width: "49%",
 						  height:"220px"

@@ -35,6 +35,7 @@
 	height:80%
 }
 .rates{
+	visibility:hidden;
 	opacity:0;
 	width: 30%;
 	text-align:center;
@@ -53,6 +54,7 @@
     -webkit-appearance:none; /* Safari and Chrome */
 }
 .price{
+	visibility:hidden;
 	width:100%;
 	opacity:0;
 	vertical-align: bottom;
